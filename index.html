@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tejay's Catering</title>
+<link rel="icon" href="images/logo.png">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,800;1,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="page" id="top">
+
+  <header class="nav">
+    <a href="#top" class="logo"><img src="images/logo.png" alt="Tejay's Catering logo"></a>
+    <nav>
+      <a href="#top" class="active">HOME</a>
+      <a href="#information">INFORMATION</a>
+      <a href="#foods">FOODS</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <h1>Tejay's Catering</h1>
+    <a href="#contact" class="btn" id="getStarted">GET STARTED</a>
+  </section>
+
+  <section class="info" id="information">
+    <div class="panel">
+      <p>Tejay's Catering works by first meeting with you to discuss your event details, preferred menu, budget, and number of guests. Once you agree to the booking deposit, they prepare all fresh food and supplies in advance.</p>
+      <img src="images/chef.jpg" alt="Chef Tejay in a white uniform and chef's hat">
+    </div>
+  </section>
+
+  <section class="foods" id="foods">
+    <h2>Our Foods</h2>
+    <div class="gallery">
+      <button class="thumb" data-src="images/poster.jpg" data-alt="Catering services poster: weddings, office events, family events, birthday events"><img src="images/poster.jpg" alt="Catering services poster"></button>
+      <button class="thumb" data-src="images/buffet-1.jpg" data-alt="Buffet set-up with chafing dishes and flowers"><img src="images/buffet-1.jpg" alt="Buffet set-up with chafing dishes"></button>
+      <button class="thumb" data-src="images/buffet-2.jpg" data-alt="Long buffet table with assorted dishes"><img src="images/buffet-2.jpg" alt="Long buffet table"></button>
+    </div>
+    <p class="hint">Tap a photo to enlarge it.</p>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2 class="contact-title">CONTACT US:</h2>
+    <ul class="links">
+      <li><a href="https://www.facebook.com/" target="_blank" rel="noopener" id="fb"><img src="images/facebook.png" alt=""><span>FACEBOOK</span></a></li>
+      <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" id="ig"><img src="images/instagram.png" alt=""><span>INSTAGRAM</span></a></li>
+      <li><a href="mailto:tejayscatering@gmail.com" id="mail"><img src="images/gmail.png" alt=""><span>GMAIL</span></a></li>
+      <li><a href="tel:+639000000000" id="phone"><img src="images/phone.png" alt=""><span>CELLPHONE NO.</span></a></li>
+    </ul>
+    <p class="toast" id="toast" role="status" aria-live="polite"></p>
+  </section>
+
+</div>
+
+<div class="lightbox" id="lightbox" hidden>
+  <button class="close" aria-label="Close photo">&times;</button>
+  <img src="" alt="">
+</div>
+
+<script src="./script.js"></script>
+</body>
+</html>
